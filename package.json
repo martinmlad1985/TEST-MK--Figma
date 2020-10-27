@@ -1,0 +1,19 @@
+{
+  "name": "test-mk--figma",
+  "version": "1.0.0",
+  "description": "Тестовый проект",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/martinmlad1985/TEST-MK--Figma.git"
+  },
+  "author": "Martinkevich Dima",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/martinmlad1985/TEST-MK--Figma/issues"
+  },
+  "homepage": "https://github.com/martinmlad1985/TEST-MK--Figma#readme"
+}
