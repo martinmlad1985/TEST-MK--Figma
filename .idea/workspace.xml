@@ -11,7 +11,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8146a133-a542-4693-abb1-a1753dfc9311" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/TEST-MK--Figma.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Blocks/Header/_header.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Blocks/Header/img/Vector.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Blocks/Header/img/Viber.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Blocks/Header/img/a1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Blocks/Header/img/eye.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Blocks/Header/img/mts.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Blocks/Header/img/phone1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Blocks/Header/img/phone2.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project-wrapper.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project-wrapper.css.map" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/project-wrapper.sass" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -60,6 +77,7 @@
       <option name="presentableId" value="Default" />
       <updated>1603731278945</updated>
       <workItem from="1603731280478" duration="2482000" />
+      <workItem from="1603831527933" duration="101000" />
     </task>
     <servers />
   </component>
@@ -76,6 +94,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="436" y="190" key="EditFileWatcherDialog" timestamp="1603734773308">
