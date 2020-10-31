@@ -5,11 +5,28 @@
 body {
   background: rgba(255, 255, 100, 0.2); }
 
+.introduction__h2, .main-action__p, .principle__h2 {
+  font-family: Commissioner;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 40px;
+  letter-spacing: 0.03em;
+  color: rgba(0, 0, 0, 0.9); }
+
 .project-wrapper {
   width: 1920px;
   border: 2px solid red;
   margin: 0 auto;
-  background-color: #E5E5E5; }
+  background-color: #E5E5E5;
+  margin-top: 50px;
+  margin-bottom: 50px; }
+  .project-wrapper__main-action {
+    margin: 0 auto;
+    margin-top: 100px; }
+  .project-wrapper__principle {
+    margin: 0 auto;
+    margin-top: 100px; }
 
 .header {
   height: 150px;
@@ -128,24 +145,8 @@ body {
     color: rgba(0, 0, 0, 0.8);
     margin-top: 20px; }
   .picture__button {
-    width: 200px;
-    height: 45px;
     left: 375px;
     top: 355px;
-    background: #DEC377;
-    border-radius: 2px;
-    font-family: Commissioner;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 13px;
-    line-height: 30px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
-    letter-spacing: 0.08em;
-    text-transform: uppercase;
-    color: #FFFFFF;
     margin-top: 50px; }
   .picture__arrows {
     position: absolute;
@@ -241,13 +242,7 @@ body {
     width: 539px;
     height: 80px;
     left: 70px;
-    top: 50px;
-    font-family: Commissioner;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 28px;
-    line-height: 40px;
-    letter-spacing: 0.03em; }
+    top: 50px; }
   .introduction__text {
     position: absolute;
     width: 470px;
@@ -266,5 +261,133 @@ body {
     left: 670px;
     top: 0px;
     bottom: 0px; }
+
+.main-action {
+  width: 1170px;
+  height: 640px;
+  position: relative; }
+  .main-action__content {
+    position: absolute;
+    width: 1170px;
+    height: 480px;
+    top: 75px;
+    display: grid;
+    grid-template-columns: 370px 370px 370px;
+    grid-template-rows: 140px 140px 140px;
+    grid-column-gap: 30px;
+    grid-row-gap: 30px; }
+  .main-action__button {
+    position: absolute;
+    top: 595px;
+    left: 0; }
+  .main-action__item {
+    width: 370px;
+    height: 140px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between; }
+  .main-action__text {
+    width: 180px;
+    height: 90px;
+    left: 40px;
+    font-family: Commissioner;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    color: rgba(0, 0, 0, 0.9);
+    margin-left: 40px;
+    margin-top: 25px; }
+  .main-action__img {
+    margin-right: 20px;
+    margin-top: 20px; }
+  .main-action__p {
+    font-family: Commissioner;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    color: rgba(0, 0, 0, 0.9); }
+  .main-action__item-button {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, 0.5);
+    background-color: white;
+    border: none; }
+
+.button {
+  width: 200px;
+  height: 45px;
+  background: #DEC377;
+  border-radius: 2px;
+  font-family: Commissioner;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #FFFFFF; }
+
+.principle {
+  width: 1370px;
+  height: 820px;
+  position: relative; }
+  .principle__slider {
+    position: absolute;
+    width: 1370px;
+    height: 560px;
+    margin-top: 260px; }
+  .principle__h2 {
+    position: absolute;
+    left: 100px;
+    width: 370px;
+    height: 80px; }
+  .principle__span {
+    position: absolute;
+    right: 100px;
+    width: 770px;
+    height: 200px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 25px;
+    color: rgba(0, 0, 0, 0.8); }
+  .principle__window {
+    width: 1170px;
+    height: 560px;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative; }
+  .principle__arrows {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    position: absolute;
+    height: 100px;
+    width: 1370px;
+    top: 490px; }
+  .principle__arrow {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+  .principle__img {
+    height: 560px;
+    display: flex;
+    position: absolute;
+    left: 0px; }
 
 /*# sourceMappingURL=project-wrapper.css.map */
