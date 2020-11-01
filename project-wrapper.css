@@ -30,6 +30,9 @@ body {
   .project-wrapper__delta {
     margin: 0 auto;
     margin-top: 80px; }
+  .project-wrapper__services {
+    margin: 0 auto;
+    margin-top: 80px; }
 
 .header {
   height: 150px;
@@ -339,7 +342,8 @@ body {
   justify-content: center;
   letter-spacing: 0.08em;
   text-transform: uppercase;
-  color: #FFFFFF; }
+  color: #FFFFFF;
+  border: none; }
   .button_background_white {
     background-color: white;
     color: #DEC377; }
@@ -607,5 +611,92 @@ body {
     font-size: 15px;
     line-height: 25px;
     color: rgba(0, 0, 0, 0.8); }
+
+.middle {
+  margin-top: 100px; }
+
+.services {
+  height: 1070px;
+  width: 1170px;
+  position: relative; }
+  .services__h2 {
+    position: absolute;
+    height: 40px;
+    width: 409px;
+    left: 0;
+    top: 0;
+    font-family: Commissioner;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 40px;
+    letter-spacing: 0.03em;
+    color: rgba(0, 0, 0, 0.9); }
+  .services__list {
+    position: absolute;
+    height: 820px;
+    width: 1170px;
+    left: 0;
+    top: 75px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between; }
+  .services__text {
+    position: absolute;
+    height: 125px;
+    width: 770px;
+    left: 0;
+    top: 945px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 25px;
+    color: rgba(0, 0, 0, 0.8); }
+  .services__button {
+    position: absolute;
+    right: 0;
+    top: 945px; }
+  .services__item {
+    height: 140px;
+    width: 570px;
+    left: 375px;
+    background-color: white;
+    position: static;
+    background: linear-gradient(to right, rgba(222, 195, 119, 0.75) 70px, white 70px);
+    display: flex;
+    justify-content: space-between; }
+    .services__item_size_little {
+      width: 470px; }
+    .services__item_size_big {
+      width: 670px; }
+    .services__item_bc_lighter {
+      background: linear-gradient(to right, rgba(222, 195, 119, 0.4) 70px, white 70px); }
+    .services__item_bc_darker {
+      background: linear-gradient(to right, #DEC377 70px, white 70px); }
+  .services__text2 {
+    font-family: Commissioner;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: rgba(0, 0, 0, 0.9);
+    margin-left: 100px;
+    margin-top: 25px; }
+  .services__button2 {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, 0.5);
+    background-color: white;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    align-self: flex-end;
+    border: none; }
 
 /*# sourceMappingURL=project-wrapper.css.map */
