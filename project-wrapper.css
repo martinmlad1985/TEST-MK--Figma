@@ -27,6 +27,9 @@ body {
   .project-wrapper__principle {
     margin: 0 auto;
     margin-top: 100px; }
+  .project-wrapper__delta {
+    margin: 0 auto;
+    margin-top: 80px; }
 
 .header {
   height: 150px;
@@ -337,6 +340,9 @@ body {
   letter-spacing: 0.08em;
   text-transform: uppercase;
   color: #FFFFFF; }
+  .button_background_white {
+    background-color: white;
+    color: #DEC377; }
 
 .principle {
   width: 1370px;
@@ -391,13 +397,16 @@ body {
     left: 0px; }
 
 .white {
-  height: 1345px;
+  height: 1150px;
   width: 1920px;
   background-color: white;
   margin-top: -100px;
   padding-top: 210px; }
   .white__reviews {
     margin: 0 auto; }
+  .white__clients {
+    margin: 0 auto;
+    margin-top: 100px; }
 
 .reviews {
   width: 1170px;
@@ -504,5 +513,99 @@ body {
     border-radius: 50%; }
     .reviews__circle_back-color_gold {
       background: #DEC377; }
+
+.clients {
+  height: 195px;
+  width: 1150px;
+  position: relative;
+  margin-top: 100px; }
+  .clients__text {
+    height: 75px;
+    width: 670px;
+    top: 0;
+    position: absolute;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 25px;
+    color: rgba(0, 0, 0, 0.8); }
+  .clients__button {
+    position: absolute;
+    left: 770px; }
+  .clients__clients {
+    height: 80px;
+    width: 1130px;
+    top: 115px;
+    position: absolute;
+    margin: 0 auto;
+    left: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+
+.delta {
+  height: 520px;
+  width: 1170px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; }
+  .delta__up {
+    height: 305px;
+    width: 570px;
+    background-color: white; }
+    .delta__up_with_coner {
+      position: relative; }
+      .delta__up_with_coner::after {
+        content: "";
+        position: absolute;
+        border: 35px solid transparent;
+        border-top: 35px solid #DEC377;
+        border-right: 35px solid #DEC377;
+        top: 0;
+        right: 0; }
+  .delta__down {
+    height: 185px;
+    width: 1170px;
+    align-self: flex-end;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white; }
+  .delta__h4 {
+    font-family: Commissioner;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 45px;
+    color: rgba(0, 0, 0, 0.9);
+    margin: 40px 50px 15px 50px; }
+  .delta__span {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 25px;
+    color: rgba(0, 0, 0, 0.8);
+    margin: 0px 50px; }
+  .delta__left {
+    height: 90px;
+    width: 320px;
+    font-family: Commissioner;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 45px;
+    color: rgba(0, 0, 0, 0.9);
+    margin-right: 30px; }
+  .delta__right {
+    height: 100px;
+    width: 720px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 25px;
+    color: rgba(0, 0, 0, 0.8); }
 
 /*# sourceMappingURL=project-wrapper.css.map */
