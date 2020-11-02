@@ -1,0 +1,44 @@
+.adv
+	height: 610px
+	width: 1170px
+	&__header
+		height: 40px
+		width: 286px
+		@extend %font
+
+	&__advantage
+		margin-top: 35px
+
+	&__text-wrapper
+		height: 160px
+		width: 1170px
+		margin-top: 40px
+		background-color: white
+		border: 1px solid white
+		position: relative
+		&::after
+			content: ""	
+			position: absolute
+			border: 35px solid transparent
+			border-top: 35px solid #DEC377
+			border-right: 35px solid #DEC377
+			top: 0
+			right: 0
+
+
+	&__text	
+		height: 75px
+		width: 750px
+		font-family: Lato
+		font-style: normal
+		font-weight: 300
+		font-size: 15px
+		line-height: 25px
+		color: rgba(0, 0, 0, 0.8)
+		margin-top: 40px
+		margin-left: 50px
+	&__item
+		height: 335px
+		width: 270px
+		border: 1px solid blue
+			
