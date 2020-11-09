@@ -1,0 +1,36 @@
+.menu
+	height: 45px
+
+	&__list
+		display: flex
+		flex-direction: row
+		align-items: flex-start
+		width: 605px
+		height: 45px
+		justify-content: space-between
+		margin-left: 940px
+		a
+			font-family: Lato
+			font-style: normal
+			font-weight: normal
+			font-size: 16px
+			line-height: 25px
+			letter-spacing: 0.02em
+			color: rgba(0, 0, 0, 0.75)
+			text-decoration: none
+			position: relative
+			&:hover
+				color: #DEC377
+				&::before
+					content: ""
+					position: absolute
+					width: 100%
+					height: 5px
+					left: 0px
+					top: 40px
+					background: #DEC377
+
+
+	&__line
+		height: 1px
+		background: rgba(0, 0, 0, 0.1)
