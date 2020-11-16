@@ -1,7 +1,6 @@
 .subserv
 	height: 1110px
 	width: 1170px
-	@extend %b
 	&__text
 		width: 115px
 		height: 20px
@@ -23,14 +22,73 @@
 		justify-content: space-between
 		align-content: space-between
 
+	
+	&__wrap
+		height: 40px
+		width: 80px
+		position: relative
+		overflow: hidden
+	&__wrap2
+		position: absolute
+		display: flex
+		left: 0px
 
-	&__page
-		@extend %b
+	&__button
+		height: 40px
+		width: 40px
+		display: flex
+		align-items: center
+		justify-content: center
+		border: none
+		background-color: transparent
+		&:focus
+			outline: none	
+		&:active
+			opacity: 0.5
+		&:disabled
+			opacity: 0.3
+				
+
+
+
+	&__pages
 		height: 40px
 		width: 160px
 		margin: 0 auto
 		margin-top: 40px
-		
+		display: flex
+		&-item
+			height: 40px
+			width: 40px
+			font-family: Commissioner
+			font-style: normal
+			font-weight: bold
+			font-size: 16px
+			line-height: 25px
+			display: flex
+			align-items: center
+			justify-content: center
+			letter-spacing: 0.02em
+			color: rgba(0, 0, 0, 0.3)
+			text-decoration: none
+			&:focus
+				color: rgba(0, 0, 0, 0.9)
+				
+			
+
+	&__arrow
+		height: 7px
+		width: 7px
+		border: solid black
+		border-width: 0 2px 2px 0
+		&_dir_left
+			transform: rotate(135deg)
+		&_dir_right
+			transform: rotate(-45deg)
+	
+
+
+			
 
 
 	&__item

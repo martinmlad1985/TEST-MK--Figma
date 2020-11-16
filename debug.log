@@ -1,1 +1,3 @@
 [1031/085955.246:ERROR:directory_reader_win.cc(43)] FindFirstFile: Системе не удается найти указанный путь. (0x3)
+[1111/193107.714:ERROR:crash_report_database_win.cc(457)] unexpected header
+[1115/093658.316:ERROR:crash_report_database_win.cc(457)] unexpected header
