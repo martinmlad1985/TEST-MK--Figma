@@ -3,7 +3,7 @@
   padding: 0; }
 
 body {
-  background: rgba(255, 255, 100, 0.2); }
+  background: #E5E5E5; }
 
 .introduction__h2, .main-action__p, .principle__h2, .reviews__h2, .adv__header, .cooperation__h2, .cost__up, .reg__text2, .doc__h2, .aspect__left, .exc__text2 {
   font-family: Commissioner;
@@ -25,9 +25,7 @@ body {
 .project-wrapper {
   width: 1920px;
   margin: 0 auto;
-  background-color: #E5E5E5;
-  margin-top: 50px;
-  margin-bottom: 50px; }
+  background: #F2F2F2; }
   .project-wrapper__main-action {
     margin: 0 auto;
     margin-top: 100px; }
@@ -89,10 +87,21 @@ body {
     background: white; }
   .header__change-lang {
     height: 20px;
-    width: 137px;
     margin-left: 375px; }
+  .header__select {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: rgba(0, 0, 0, 0.8);
+    border: none; }
+    .header__select:hover {
+      color: rgba(0, 0, 0, 0.6); }
+    .header__select:focus, .header__select active {
+      outline: none; }
   .header__span {
-    font-family: Source Sans Pro;
+    font-family: Lato;
     font-size: 16px;
     font-style: normal;
     line-height: 20px;
@@ -143,7 +152,8 @@ body {
     margin-right: 313px;
     display: flex;
     align-items: center;
-    justify-content: space-between; }
+    justify-content: space-between;
+    list-style-type: none; }
   .header__item {
     font-family: Commissioner;
     font-style: normal;
@@ -154,6 +164,11 @@ body {
     text-transform: uppercase;
     color: rgba(0, 0, 0, 0.75);
     margin: 50px 0px; }
+    .header__item a {
+      text-decoration: none;
+      color: rgba(0, 0, 0, 0.75); }
+      .header__item a:hover {
+        color: rgba(0, 0, 0, 0.6); }
 
 .logo {
   height: 60px;
@@ -292,7 +307,7 @@ body {
   background-color: white; }
   .introduction__h2 {
     position: absolute;
-    width: 539px;
+    width: 545px;
     height: 80px;
     left: 70px;
     top: 50px; }
@@ -354,7 +369,7 @@ body {
   .main-action__img {
     margin-right: 20px;
     margin-top: 20px; }
-  .main-action__p {
+  .main-action__h {
     font-family: Commissioner;
     font-style: normal;
     font-weight: normal;
@@ -373,6 +388,10 @@ body {
     background-color: white;
     border: none;
     text-decoration: none; }
+    .main-action__item-button:hover {
+      opacity: 0.7; }
+    .main-action__item-button_color_red {
+      background-color: red; }
 
 .button {
   width: 200px;
@@ -401,6 +420,12 @@ body {
     border: 1px solid #DEC377; }
   .button_width_470px {
     width: 470px; }
+  .button:focus {
+    outline: none; }
+  .button:active {
+    outline: 1px solid gold; }
+  .button:hover {
+    opacity: 0.8; }
 
 .principle {
   width: 1370px;
@@ -470,7 +495,7 @@ body {
   width: 1170px;
   height: 740px; }
   .reviews__h2 {
-    width: 357px;
+    width: 365px;
     height: 40px; }
   .reviews__content {
     width: 1170px;
@@ -564,6 +589,8 @@ body {
     text-transform: uppercase;
     color: rgba(0, 0, 0, 0.5);
     margin-top: 25px; }
+    .reviews__span4:hover {
+      opacity: 0.75; }
   .reviews__circle {
     width: 10px;
     height: 10px;
@@ -590,7 +617,8 @@ body {
     color: rgba(0, 0, 0, 0.8); }
   .clients__button {
     position: absolute;
-    left: 770px; }
+    left: 770px;
+    border: 1px solid #DEC377; }
   .clients__clients {
     height: 80px;
     width: 1130px;
@@ -676,7 +704,7 @@ body {
   .services__h2 {
     position: absolute;
     height: 40px;
-    width: 409px;
+    width: 420px;
     left: 0;
     top: 0;
     font-family: Commissioner;
@@ -752,6 +780,8 @@ body {
     margin-right: 20px;
     align-self: flex-end;
     border: none; }
+    .services__button2:hover {
+      opacity: 0.75; }
 
 .trust {
   height: 790px;
@@ -834,7 +864,7 @@ body {
   width: 1170px; }
   .adv__header {
     height: 40px;
-    width: 286px; }
+    width: 300px; }
   .adv__advantage {
     margin-top: 35px; }
   .adv__text-wrapper {
@@ -1162,7 +1192,12 @@ body {
 .registration {
   width: 1920px;
   height: 335px;
-  background: url("Blocks/Registration/img1.png"); }
+  background: url("Blocks/Registration/img1.png");
+  position: relative; }
+  .registration__button {
+    position: absolute;
+    left: 377px;
+    top: 202px; }
 
 .menu {
   height: 45px; }
@@ -1202,7 +1237,7 @@ body {
   height: 1110px;
   width: 1170px; }
   .subserv__text {
-    width: 115px;
+    width: 125px;
     height: 20px;
     font-family: Commissioner;
     font-style: normal;
@@ -1306,6 +1341,8 @@ body {
       text-transform: uppercase;
       color: rgba(0, 0, 0, 0.5);
       text-decoration: none; }
+      .subserv__item-a:hover {
+        opacity: 0.75; }
     .subserv__item-img {
       position: absolute;
       width: 60px;
@@ -1706,7 +1743,7 @@ body {
     margin-left: 70px; }
   .connect__phone {
     height: 25px;
-    width: 251px;
+    width: 260px;
     margin-top: 15px;
     margin-left: 110px;
     border-bottom: 1px solid rgba(0, 0, 0, 0.1); }

@@ -9,10 +9,24 @@
 		background: white
 	&__change-lang
 		height: 20px
-		width: 137px
+		// width: 137px
 		margin-left: 375px
+
+	&__select
+		font-family: Lato
+		font-style: normal
+		font-weight: normal
+		font-size: 16px
+		line-height: 20px
+		color: rgba(0, 0, 0, 0.8)
+		border: none
+		&:hover
+			color: rgba(0, 0, 0, 0.6)
+
+		&:focus, active
+			outline: none	
 	&__span
-		font-family: Source Sans Pro
+		font-family: Lato
 		font-size: 16px
 		font-style: normal
 		line-height: 20px
@@ -64,6 +78,7 @@
 		display: flex
 		align-items: center
 		justify-content: space-between
+		list-style-type: none
 	&__item
 		font-family: Commissioner
 		font-style: normal
@@ -74,4 +89,8 @@
 		text-transform: uppercase
 		color: rgba(0, 0, 0, 0.75)
 		margin: 50px 0px
-
+		a
+			text-decoration: none
+			color: rgba(0, 0, 0, 0.75)
+			&:hover
+				color: rgba(0, 0, 0, 0.6)

@@ -7,6 +7,10 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="project-wrapper.css">
 
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Commissioner:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+    
     <title>Document</title>
 </head>
 <body>
@@ -19,8 +23,12 @@
   		<div class="header__up">
 	  		<div class="header__change-lang">
 	  			<span class="header__span header__span_weight_300">Язык</span>
-	  			<span class="header__span header__span_weight_400">русский</span>
-	  			<img src="Blocks/Header/img/Vector.png" alt="vector">
+          <select name="" class="header__select" >
+            <option value="" >русский</option>
+            <option value="">английский</option>
+          </select>
+	  			<!-- <span class="header__span header__span_weight_400">русский</span> -->
+	  			<!-- <img src="Blocks/Header/img/Vector.png" alt="vector"> -->
 	  		</div>
 	  		<div class="header__eye">
 	  			<img src="Blocks/Header/img/eye.png" alt="eye">
@@ -42,7 +50,8 @@
   			<div class="logo header__down-logo">
   				<img src="Blocks/Common/Logo/Logo.png" alt="">
   			</div>
-  			<div class="header__nav">
+  			<nav class="">
+         <!--  <ol class="header__nav">
   				<div class="header__item">главная</div>
   				<div class="header__item">о нас</div>
   				<div class="header__item">услуги</div>
@@ -50,7 +59,18 @@
   				<div class="header__item">инфоцентр</div>
   				<div class="header__item">контакты</div>
   				<div class="header__item"><img src="Blocks/Header/img/loop.png" alt="loop"></div>
-  			</div>
+          </ol> -->
+
+          <ul class="header__nav">
+            <li class="header__item"><a href="#!">главная</a></li>
+            <li class="header__item"><a href="#!">о нас</a></li>
+            <li class="header__item"><a href="#!">услуги</a></li>
+            <li class="header__item"><a href="#!">тарифы</a></li>
+            <li class="header__item"><a href="#!">инфоцентр</a></li>
+            <li class="header__item"><a href="#!">контакты</a></li>
+            <li class="header__item"><a href="#!"><img src="Blocks/Header/img/loop.png" alt="loop"></a></li>
+          </ul>
+  			</nav>
   		</div>
     </div>
     <!-- header end -->
@@ -183,64 +203,64 @@
 
         <div class="main-action__item">
           <div class="main-action__text">
-            <p class="main-action__p">Взыскание долгов</p>
-            <a href="" class="main-action__item-button">подробнее</a>
+            <p class="main-action__h">Взыскание долгов</p>
+            <a href="#!" class="main-action__item-button">подробнее</a>
           </div>
           <div class="main-action__img"><img src="Blocks/Main-action/img1.png" alt=""></div>
         </div>
         <div class="main-action__item">
           <div class="main-action__text">
-            <p class="main-action__p">Реорганизация бизнеса</p>
-            <a href="" class="main-action__item-button">подробнее</a>
+            <p class="main-action__h">Реорганизация бизнеса</p>
+            <a href="#!" class="main-action__item-button">подробнее</a>
           </div>
           <div class="main-action__img"><img src="Blocks/Main-action/img2.png" alt=""></div>
         </div>
         <div class="main-action__item">
           <div class="main-action__text">
-            <p class="main-action__p">Продажа бизнеса</p>
-            <a href="" class="main-action__item-button">подробнее</a>
+            <p class="main-action__h">Продажа бизнеса</p>
+            <a href="#!" class="main-action__item-button">подробнее</a>
           </div>
           <div class="main-action__img"><img src="Blocks/Main-action/img3.png" alt=""></div>
         </div>
         <div class="main-action__item">
           <div class="main-action__text">
-            <p class="main-action__p">Юридические консультации</p>
-            <a href="" class="main-action__item-button">подробнее</a>
+            <p class="main-action__h">Юридические консультации</p>
+            <a href="#!" class="main-action__item-button">подробнее</a>
           </div>
           <div class="main-action__img"><img src="Blocks/Main-action/img4.png" alt=""></div>
         </div>
         <div class="main-action__item">
           <div class="main-action__text">
-            <p class="main-action__p">Ликвидация организаций</p>
-            <a href="" class="main-action__item-button">подробнее</a>
+            <p class="main-action__h">Ликвидация организаций</p>
+            <a href="#!" class="main-action__item-button">подробнее</a>
           </div>
           <div class="main-action__img"><img src="Blocks/Main-action/img5.png" alt=""></div>
         </div>
         <div class="main-action__item">
           <div class="main-action__text">
-            <p class="main-action__p">Разработка договоров</p>
-            <a href="" class="main-action__item-button">подробнее</a>
+            <p class="main-action__h">Разработка договоров</p>
+            <a href="#!" class="main-action__item-button">подробнее</a>
           </div>
           <div class="main-action__img"><img src="Blocks/Main-action/img6.png" alt=""></div>
         </div>
         <div class="main-action__item">
           <div class="main-action__text">
-            <p class="main-action__p">Регистрация бизнеса</p>
-            <a href="reg-bisness.html" class="main-action__item-button">подробнее</a>
+            <p class="main-action__h">Регистрация бизнеса</p>
+            <a href="reg-bisness.html" class="main-action__item-button main-action__item-button_color_red">подробнее</a>
           </div>
           <div class="main-action__img"><img src="Blocks/Main-action/img7.png" alt=""></div>
         </div>
         <div class="main-action__item">
           <div class="main-action__text">
-            <p class="main-action__p">Юридический аутсорсинг</p>
-            <a href="" class="main-action__item-button">подробнее</a>
+            <p class="main-action__h">Юридический аутсорсинг</p>
+            <a href="#!" class="main-action__item-button">подробнее</a>
           </div>
           <div class="main-action__img"><img src="Blocks/Main-action/img8.png" alt=""></div>
         </div>
         <div class="main-action__item">
           <div class="main-action__text">
-            <p class="main-action__p">Аттестация в строительстве</p>
-            <a href="" class="main-action__item-button">подробнее</a>
+            <p class="main-action__h">Аттестация в строительстве</p>
+            <a href="#!" class="main-action__item-button">подробнее</a>
           </div>
           <div class="main-action__img"><img src="Blocks/Main-action/img9.png" alt=""></div>
         </div>
